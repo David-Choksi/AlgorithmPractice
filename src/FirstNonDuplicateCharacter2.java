@@ -24,6 +24,16 @@ public class firstNonRepeatedCharacter2 {
             }
         }
         
+        // If using just a normal Hashtable, then iterate through the input String, 
+        // and search Hashmap for each character of the input string. Return first one that's == 1. 
+
+        for (i = 0; i < length; i++) {
+            c = str.charAt(i);
+            if (characterhashtable.get(c) == 1)
+                return c;
+        }    
+
+
         return null;
 
     }
