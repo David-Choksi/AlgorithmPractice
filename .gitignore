@@ -26,6 +26,8 @@ hs_err_pid*
 
 /.idea/
 /AlgorithmPractice.iml
+/out/
 .gitignore
+out/
 .idea/
 AlgorithmPractice.iml
