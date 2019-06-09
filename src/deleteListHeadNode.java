@@ -7,8 +7,11 @@ public class deleteListHeadNode {
         if (head == null) {
             return head;
         }
+        ListNode tmp = head;
         
         head = head.next;
+
+        tmp.next = null;
         return head;    
     
         
