@@ -3,6 +3,9 @@ import java.util.streams.*;
 
 public class firstNonRepeatedCharacter2 {
     public static Character firstNonRepeatedCharacter(String str) {
+
+        // Using a LinkedHashMap because it works like a HashMap, except keeps the order according to character inserted. 
+        
         LinkedHashMap<Character, Integer> duplicateStorage = new LinkedHashMap<Character, Integer>();
         
         for (char ch : str.toCharArray()) {
