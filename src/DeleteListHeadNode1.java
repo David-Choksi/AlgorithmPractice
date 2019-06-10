@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class DeleteListHeadNode {
+public class DeleteListHeadNode1 {
 
     public ListNode deleteAtHead(ListNode head){
 
