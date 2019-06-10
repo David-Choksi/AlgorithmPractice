@@ -7,11 +7,16 @@ public class deleteListHeadNode {
         if (head == null) {
             return head;
         }
+<<<<<<< HEAD
         ListNode tmp = head;
         
         head = head.next;
 
         tmp.next = null;
+=======
+        
+        head = head.next;
+>>>>>>> master
         return head;    
     
         

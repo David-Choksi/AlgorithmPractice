@@ -1,4 +1,7 @@
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.Set;
 
 public class FirstNonDuplicateCharacter1 {
 
@@ -37,6 +40,8 @@ public class FirstNonDuplicateCharacter1 {
         System.out.println(firstNonRepeatedCharacter(str2));
         System.out.println(firstNonRepeatedCharacter(str3));
         System.out.println(firstNonRepeatedCharacter(str4));
+
+        int[] arr = {2, 5, 5, 8, 2, 6, 3 ,4 ,6, 9, 0};
 
     }
 }
