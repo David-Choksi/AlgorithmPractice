@@ -36,4 +36,6 @@ public class FirstNonDuplicateCharacter2 {
         return null;
 
     }
+
+
 }
