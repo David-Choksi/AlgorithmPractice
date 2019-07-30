@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.streams.*;
 
-public class fibonacciSimpleIterative {
+public class fibonacciRecursiveDP {
 
     /* 
     This is a Recursive Dynamic Programming / Memoization way of doing Fibonacci.

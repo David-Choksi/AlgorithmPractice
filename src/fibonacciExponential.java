@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.streams.*;
 
-public class fibonacciSimpleIterative {
+public class fibonacciExponential {
 
     public static int fib(int n) {
         if (n == 0) {
